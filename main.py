@@ -83,7 +83,7 @@ def Menu():
         Menu()
     elif choice == '5':
         amount = float(input("Enter the amount of USD you want to withdraw: "))
-        dollar.curamount += amount
+        dollar.curamount -= amount
         print("Withdraw successful! Your new balance is: ", dollar.curamount)
         time.sleep(2)
         Menu()
